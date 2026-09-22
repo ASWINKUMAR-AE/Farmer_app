@@ -7,13 +7,18 @@ dist/
 web-build/
 expo-env.d.ts
 
-# native
+# native & android builds
 *.orig.*
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
+android/.gradle/
+android/app/build/
+android/build/
+.gradle_home/
+.gradle/
 
 # metro
 .metro-health-check*
@@ -39,8 +44,6 @@ yarn-error.*
 *.aab
 FarReach-Release.apk
 
-# gradle & local caches
-.gradle_home/
-.gradle/
-android/.gradle/
+# editor & tool caches
 .bolt/
+.qodo/
